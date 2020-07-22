@@ -16,3 +16,7 @@ This is a repository with some frequently found problems and their solutions.
 This permission fix might solve it:
 
 `sudo chown -R $USER /usr/local/lib/node_modules`
+
+#### Rake Webpack CONNECTION REFUSED
+[This fix solved it](https://github.com/webpack/webpack-dev-server/issues/1347).
+echo " alias rake-webpack='../../node_modules/.bin/webpack-dev-server --mode development --host 0.0.0.0 --hot --open --useLocalIp' " >> ~/.zshrc
