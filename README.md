@@ -23,3 +23,5 @@ This permission fix might solve it:
 To create the `alias` fix:
 
 `echo " alias rake-webpack='../../node_modules/.bin/webpack-dev-server --mode development --host 0.0.0.0 --hot --open --useLocalIp' " >> ~/.zshrc`
+
+To specify the port, just add `--port 3000`
