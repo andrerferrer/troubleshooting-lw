@@ -37,9 +37,7 @@ sudo apt-get remove gpg
 sudo apt-get install gnupg1
 ```
 
-### Javascript-basics
-
-#### Missing write access to /usr/local/lib/node_modules 
+### Missing write access to /usr/local/lib/node_modules 
 
 ```
 This permission fix might solve it:
@@ -49,7 +47,7 @@ sudo chown -R $USER /usr/local/lib/node_modules
 
 [Source](https://flaviocopes.com/npm-fix-missing-write-access-error/)
 
-#### Rake Webpack CONNECTION REFUSED
+### Rake Webpack CONNECTION REFUSED
 [This fix solved it](https://github.com/webpack/webpack-dev-server/issues/1347).
 
 To create the `alias` fix:
@@ -59,3 +57,23 @@ To create the `alias` fix:
 To specify the port, just add `--port 3000`.
 
 It'll look like `rake-webpack --port 1234`.
+
+## AirBnb && Projects
+
+### Cloudinary
+1. issue seeding pictures from Cloudinary
+
+```
+Error:
+tempfile error (on Ubuntu). 
+
+Fix:
+item.individual_pieces.attach(
+    io: open('https://res.cloudinary.com/dj9iphc8u/image/upload/v1597913613/outfit/o1_sweater_a94vol.png'),
+    filename: 'o1_sweater_a94vol.png',
+    content_type: 'image/png',
+    identify: false
+  )
+
+Adding the identify: false fixed the issue
+```
