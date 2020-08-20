@@ -9,6 +9,22 @@ This is a repository with some frequently found problems and their solutions.
 
 ## Javascript Week
 
+### Node
+```
+Error: 
+The following directories are not writable by your user:
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+You should change the ownership of these directories to your user.
+ sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
+And make sure that your user has write permission.
+ chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
+
+Fix:
+sudo chown -R $(whoami) 
+chmod u+w /usr/local/share/zsh
+```
+
 ### Yarn
 
 1. Error when installing on WSL
@@ -20,7 +36,6 @@ Fix:
 sudo apt-get remove gpg
 sudo apt-get install gnupg1
 ```
-
 
 ### Javascript-basics
 
