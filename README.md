@@ -9,13 +9,30 @@ This is a repository with some frequently found problems and their solutions.
 
 ## Javascript Week
 
+### Yarn
+
+1. Error when installing on WSL
+```
+Error:
+gpg: can't connect to the agent: IPC connect call failed
+
+Fix:
+sudo apt-get remove gpg
+sudo apt-get install gnupg1
+```
+
+
 ### Javascript-basics
 
-#### Missing write access to /usr/local/lib/node_modules [Source](https://flaviocopes.com/npm-fix-missing-write-access-error/)
+#### Missing write access to /usr/local/lib/node_modules 
 
+```
 This permission fix might solve it:
 
-`sudo chown -R $USER /usr/local/lib/node_modules`
+sudo chown -R $USER /usr/local/lib/node_modules
+```
+
+[Source](https://flaviocopes.com/npm-fix-missing-write-access-error/)
 
 #### Rake Webpack CONNECTION REFUSED
 [This fix solved it](https://github.com/webpack/webpack-dev-server/issues/1347).
