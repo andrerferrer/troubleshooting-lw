@@ -61,7 +61,7 @@ It'll look like `rake-webpack --port 1234`.
 ## AirBnb && Projects
 
 ### Cloudinary
-1. issue seeding pictures from Cloudinary
+- issue seeding pictures from Cloudinary
 
 ```
 Error:
@@ -77,3 +77,8 @@ item.individual_pieces.attach(
 
 Adding the identify: false fixed the issue
 ```
+
+### Webpacker
+
+- CSS and JS do not recompile after change
+remove `public/assets` or `public/packs` folder.
