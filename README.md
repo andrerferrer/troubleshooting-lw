@@ -7,6 +7,12 @@ This is a repository with some frequently found problems and their solutions.
 
 [wsl cheatsheet](https://github.com/lewagon/setup/blob/master/wsl_cheatsheet.md).
 
+download fstack repo again:
+
+```
+curl -s https://kitt.lewagon.com/camps/:CAMP_NUMBER/setup_script/:GITHUB_USERNAME | bash
+```
+
 ## Javascript Week
 
 ### Node
