@@ -60,6 +60,11 @@ It'll look like `rake-webpack --port 1234`.
 
 ## AirBnb && Projects
 
+### Install Heroku
+
+Se der ruim, use isso:
+`curl https://cli-assets.heroku.com/install-ubuntu.sh | sh`
+
 ### Cloudinary
 - issue seeding pictures from Cloudinary
 
