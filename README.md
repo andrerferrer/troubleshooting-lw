@@ -31,6 +31,8 @@ sudo chown -R $(whoami)
 chmod u+w /usr/local/share/zsh
 ```
 
+- Node is on version 8, [how to delete it?](https://stackoverflow.com/questions/32426601/how-can-i-completely-uninstall-nodejs-npm-and-node-in-ubuntu-14-04)
+
 ### Yarn
 
 1. Error when installing on WSL
