@@ -97,4 +97,4 @@ Adding the identify: false fixed the issue
 remove `public/assets` or `public/packs` folder.
 
 ### Mapbox-gl
-[Uncaught ReferenceError: _typeof is not defined]()
+[Uncaught ReferenceError: _typeof is not defined](https://github.com/andrerferrer/troubleshooting-lw/blob/master/mapbox-gl/Uncaught%20ReferenceError%20_typeof%20is%20not%20defined.md)
