@@ -95,3 +95,6 @@ Adding the identify: false fixed the issue
 
 - CSS and JS do not recompile after change
 remove `public/assets` or `public/packs` folder.
+
+### Mapbox-gl
+[Uncaught ReferenceError: _typeof is not defined]()
