@@ -13,7 +13,7 @@ This is a repository with some frequently found problems and their solutions.
 curl -s https://kitt.lewagon.com/camps/:CAMP_NUMBER/setup_script/:GITHUB_USERNAME | bash
 ```
 
-## Javascript Week
+## Javascript
 
 ### Node
 ```
@@ -32,19 +32,6 @@ chmod u+w /usr/local/share/zsh
 ```
 
 - Node is on version 8, [how to delete it?](https://stackoverflow.com/questions/32426601/how-can-i-completely-uninstall-nodejs-npm-and-node-in-ubuntu-14-04)
-
-#### Node is above 15 and webpacker breaks
-
-On MacOS:
-```
-- brew install nvm
-- restart the terminal
-- nvm install 12.16.2
-- node -v (to check they don't have the node v15 or something)
-```
-
-On Ubuntu:
-TDB
 
 ### Yarn
 
@@ -107,7 +94,20 @@ Adding the identify: false fixed the issue
 ### Webpacker
 
 - CSS and JS do not recompile after change
-remove `public/assets` or `public/packs` folder.
+remove `public/assets` and/or `public/packs` folder.
+
+- Node is above 15 and webpacker breaks
+
+On MacOS:
+```
+- brew install nvm
+- restart the terminal
+- nvm install 12.16.2
+- node -v (to check they don't have the node v15 or something)
+```
+
+On Ubuntu:
+TDB
 
 ### Mapbox-gl
 [Uncaught ReferenceError: _typeof is not defined](https://github.com/andrerferrer/troubleshooting-lw/blob/master/mapbox-gl/Uncaught%20ReferenceError%20_typeof%20is%20not%20defined.md)
