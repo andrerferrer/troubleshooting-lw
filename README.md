@@ -33,6 +33,19 @@ chmod u+w /usr/local/share/zsh
 
 - Node is on version 8, [how to delete it?](https://stackoverflow.com/questions/32426601/how-can-i-completely-uninstall-nodejs-npm-and-node-in-ubuntu-14-04)
 
+#### Node is above 15 and webpacker breaks
+
+On MacOS:
+```
+- brew install nvm
+- restart the terminal
+- nvm install 12.16.2
+- node -v (to check they don't have the node v15 or something)
+```
+
+On Ubuntu:
+TDB
+
 ### Yarn
 
 1. Error when installing on WSL
