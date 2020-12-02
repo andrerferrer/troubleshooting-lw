@@ -1,4 +1,4 @@
-[back](https://github.com/andrerferrer/troubleshooting-lw#troubleshooting)
+[back](../README.md)
 
 ## Solution
 
