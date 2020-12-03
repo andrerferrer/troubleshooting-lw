@@ -44,3 +44,7 @@ curl -s https://kitt.lewagon.com/camps/:CAMP_NUMBER/setup_script/:GITHUB_USERNAM
 ## Rails
 
 ### [Testing on Rails](Rails/Testing_on_Rails.md)
+
+### Turbolinks
+
+- [Turbolinks back button on browser fix](https://github.com/andrerferrer/quickTips/blob/master/Rails/Turbolinks%20back%20button%20on%20browser%20fix.md)
