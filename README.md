@@ -48,3 +48,5 @@ curl -s https://kitt.lewagon.com/camps/:CAMP_NUMBER/setup_script/:GITHUB_USERNAM
 ### Turbolinks
 
 - [Turbolinks back button on browser fix](https://github.com/andrerferrer/quickTips/blob/master/Rails/Turbolinks%20back%20button%20on%20browser%20fix.md)
+
+### [PostgreSQL](PostgreSQL/general.md)
