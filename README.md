@@ -11,6 +11,7 @@ This is a repository with some frequently found problems and their solutions.
 
 - [nvm install problems on macos](https://gist.github.com/juliends/e64c3bcd2d60cbae2f648958fb691e41)
 
+- [nvm instalation](https://stackoverflow.com/questions/16904658/node-version-manager-install-nvm-command-not-found)
 ```
 curl -s https://kitt.lewagon.com/camps/:CAMP_NUMBER/setup_script/:GITHUB_USERNAME | bash
 ```
