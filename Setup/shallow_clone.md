@@ -19,3 +19,4 @@ Sources:
 
 * https://github.com/Homebrew/brew/issues/9420
 * https://stackoverflow.com/questions/65160625/cant-update-or-upgrade-homebrew
+* https://www.youtube.com/watch?v=Hz1NUezJ0ls
