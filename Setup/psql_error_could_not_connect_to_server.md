@@ -22,3 +22,6 @@ After that
 `psql -d postgres`
 
 If it doesn't work, check [this](../PostgreSQL/general.md)
+
+SOURCE:
+https://search-and-deploy.gitlab.io/bits/brew-uninstall-postgresql/
