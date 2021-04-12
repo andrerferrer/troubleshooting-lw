@@ -7,6 +7,8 @@ This is a repository with some frequently found problems and their solutions.
 
 - [wsl cheatsheet](https://github.com/andrerferrer/wsl_cheatsheet).
 
+- [apple m1](https://github.com/lewagon/setup/blob/master/apple_m1_cheatsheet.md)
+
 - [NVM issues](NVM/nvm.md)
 
 - download fstack repo again with
