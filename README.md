@@ -16,6 +16,7 @@ This is a repository with some frequently found problems and their solutions.
     curl -s https://kitt.lewagon.com/camps/:CAMP_NUMBER/setup_script/:GITHUB_USERNAME | bash
     ```
 
+### MacOs
 - [Shallow clone issues](Setup/shallow_clone.md)
 - [Terminal doesnt open rosetta](Setup/terminal_doesnt_open_rosetta.md)
 
