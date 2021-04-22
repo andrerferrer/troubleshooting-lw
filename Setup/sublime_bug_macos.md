@@ -1,18 +1,24 @@
-UNDER CONSTRUCTION
+Sometimes sublime crash in MacOS
 
+Problem is the sublime linter plugin.
 
-Problem is the sublime linter
+## Solution
+Removing `~/Library/Caches/com.sublimetext.3` and also removing `~/Library/Application\ Support/Sublime\ Text\ 3` and reinstalling the package can do the trick.
 
+```sh
+rm -rf ~/Library/Caches/com.sublimetext.3
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3
+sudo reboot # restarts the computer
+```
 
-Removing ~/Library/Caches/com.sublimetext.3
-and also removing ~/Library/Application Support/Sublime Text 3 and reinstalling the packages did the trick
+## If not,
+Configure the linter to trigger on save rather than background.
+`shift + command + P` with Sublime opened.
 
+`Preferences: SublimeLinter Settings`
 
-
-I found out that sublime crashes because of a memory leak caused by SublimeLinter package. A fix that is seems to work for me is to configure the linter to trigger on save rather than background.
-shift + command + P
-Preferences: SublimeLinter Settings
-add "lint_mode":  "save",in the User settings
+add "lint_mode":  "save",in the User settings:
+```
 {
   "paths": {
     "linux": [
@@ -24,3 +30,4 @@ add "lint_mode":  "save",in the User settings
   },
   "lint_mode": "save",
 }
+```
