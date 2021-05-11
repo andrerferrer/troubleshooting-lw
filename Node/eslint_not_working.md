@@ -1,3 +1,5 @@
+[Back](https://github.com/andrerferrer/troubleshooting-lw)
+
 Might be because Sublime Linter doesn't know the path to node
 
 `which node` and copy the path (without node). Something like `/home/andrerferrer/.nvm/versions/node/v14.15.0/bin`.
