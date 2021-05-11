@@ -30,6 +30,8 @@ This is a repository with some frequently found problems and their solutions.
 
 ### [Node](Node/general.md)
 
+1. [Eslint not working](Node/eslint_not_working.md)
+
 ### Yarn
 
 1. [Error when installing on WSL](Yarn/Error_when_installing_on_WSL.md)
