@@ -13,3 +13,4 @@ Open the Sublime Linter settings and add the path:
 ```
 
 [Source](https://github.com/SublimeLinter/SublimeLinter/issues/1118#issuecomment-393030063).
+[Source2](https://github.com/SublimeLinter/SublimeLinter/issues/1318).
