@@ -9,11 +9,11 @@ Open the Sublime Linter settings and add the path:
 ```
 "paths": 
   {
-    "osx": ["/home/andrerferrer/.nvm/versions/node/v14.15.0/bin"]
+    "osx": ["~/.nvm/versions/node/v14.15.0/bin"]
   },
 "linters": {
     "eslint": {
-      "env": {"PATH": "~/.nvm/versions/node/v8.11.4/bin"}
+      "env": {"PATH": "~/.nvm/versions/node/v14.15.0/bin"}
     }
 ```
 
