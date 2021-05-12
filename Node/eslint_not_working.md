@@ -7,9 +7,14 @@ Might be because Sublime Linter doesn't know the path to node
 Open the Sublime Linter settings and add the path:
 
 ```
-"paths": {
-		"osx": ["/home/andrerferrer/.nvm/versions/node/v14.15.0/bin"]
-	}
+"paths": 
+  {
+    "osx": ["/home/andrerferrer/.nvm/versions/node/v14.15.0/bin"]
+  },
+"linters": {
+    "eslint": {
+      "env": {"PATH": "~/.nvm/versions/node/v8.11.4/bin"}
+    }
 ```
 
 [Source](https://github.com/SublimeLinter/SublimeLinter/issues/1118#issuecomment-393030063).
