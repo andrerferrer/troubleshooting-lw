@@ -1,16 +1,27 @@
 
 1. Restart PostgreSQL
 
-    PG::ConnectionBad
+    **PG::ConnectionBad**
 
     Check if the postgresql was running
     `ps aux | grep postgresql`
 
-    Restart it
+    Restart it on Ubuntu
     `sudo /etc/init.d/postgresql start`
+    
+    Restart it on macOS
+    `brew services restart postgresql`
+    
+    or
+    
+    `pg_ctl -D /usr/local/var/postgres restart` 
+    
+    [source](https://stackoverflow.com/questions/42344890/how-to-restart-postgresql-on-os-x)
 
+2. Reinstall it
+    `brew reinstall posgresql`
 
-2. pg bad connection unix domain
+3. pg bad connection unix domain
     When you receive a `could not connect to server: No such file or directory Is the server running locally and accepting connections on Unix domain socket "/tmp/.s.PGSQL.5432"?`
 
     It means that the PGSQL server is running but we still can't properly connect.
