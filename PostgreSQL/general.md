@@ -19,7 +19,7 @@
     [source](https://stackoverflow.com/questions/42344890/how-to-restart-postgresql-on-os-x)
 
 2. Reinstall it
-    `brew reinstall posgresql`
+    `brew reinstall postgresql`
 
 3. pg bad connection unix domain
     When you receive a `could not connect to server: No such file or directory Is the server running locally and accepting connections on Unix domain socket "/tmp/.s.PGSQL.5432"?`
