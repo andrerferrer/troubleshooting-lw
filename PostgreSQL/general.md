@@ -50,3 +50,7 @@
    rm PATH/TO/POSTMASTER.PID
    ```
    
+
+Other Sources:
+
+https://thoughtbot.com/blog/macos-postgres-could-not-connect-to-server
