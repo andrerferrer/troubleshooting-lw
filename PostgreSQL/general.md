@@ -42,3 +42,11 @@
     `kill 377`
 
     Source: https://stackoverflow.com/questions/36428145/pgconnection-bad-error
+    
+    * You may have to delete the pid
+
+   ```
+   mdfind postmaster.pid # or `sudo find / -name postmaster.pid`
+   rm PATH/TO/POSTMASTER.PID
+   ```
+   
