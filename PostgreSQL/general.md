@@ -54,3 +54,5 @@
 Other Sources:
 
 https://thoughtbot.com/blog/macos-postgres-could-not-connect-to-server
+
+[Claire's](https://github.com/ClaireDMT) Solution -> https://github.com/ClaireDMT/TA-cheatsheet/blob/master/PostGreSQL-Server.md
