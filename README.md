@@ -5,7 +5,7 @@ This is a repository with some frequently found problems and their solutions.
 
 - [setup common errors](https://www.notion.so/Setup-Common-Errors-f09ad57cc4ae4a9a966b63dbf4e5620d).
 
-- [wsl cheatsheet](https://github.com/andrerferrer/wsl_cheatsheet).
+
 
 - [apple m1](https://github.com/lewagon/setup/blob/master/apple_m1_cheatsheet.md)
 
@@ -25,7 +25,7 @@ This is a repository with some frequently found problems and their solutions.
 
 ### WSL
 - [Visual Studio Code tries to access old version of WSL](Setup/old_version_wsl.md)
-
+- [wsl cheatsheet](https://github.com/andrerferrer/wsl_cheatsheet).
 
 ## Javascript
 
