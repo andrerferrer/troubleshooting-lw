@@ -3,7 +3,7 @@ This is a repository with some frequently found problems and their solutions.
 
 ## Setup
 
-- [setup commmon errors](https://www.notion.so/Setup-Common-Errors-f09ad57cc4ae4a9a966b63dbf4e5620d).
+- [setup common errors](https://www.notion.so/Setup-Common-Errors-f09ad57cc4ae4a9a966b63dbf4e5620d).
 
 - [wsl cheatsheet](https://github.com/andrerferrer/wsl_cheatsheet).
 
