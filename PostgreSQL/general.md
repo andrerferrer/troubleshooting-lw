@@ -49,7 +49,13 @@
    mdfind postmaster.pid # or `sudo find / -name postmaster.pid`
    rm PATH/TO/POSTMASTER.PID
    ```
-   
+4. Upgrade the database (normally macos)
+
+   If you run a `pg_ctl -D /usr/local/var/postgres start` and it says that the problem has to do with the database versions, 
+   ```
+   brew services stop postgresql
+   brew postgresql-upgrade-database
+   ```
 
 Other Sources:
 
