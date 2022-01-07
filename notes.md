@@ -57,8 +57,9 @@ https://stackoverflow.com/questions/60269422/windows10-wsl2-ubuntu-debian-no-net
 
 ```
 key=40976EAF437D05B5
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ${key}
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys $key
 ```
+https://github.com/cli/cli/issues/1799
 https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/
 
 
