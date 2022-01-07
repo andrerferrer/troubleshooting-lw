@@ -5,3 +5,13 @@
 
 -----------------
 
+[TROUBLESHOOTING]If you got the .bin/readlink no such file or directory  for data and web students while downloading pyenv or rbenv, please remove from the settings.json the line
+"startingDirectory" 
+and add instead,
+"commandline": "wsl.exe ~"
+restart the terminal and try again the download
+
+
+credits to @natalia
+
+--------------
