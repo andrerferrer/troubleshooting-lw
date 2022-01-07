@@ -15,3 +15,7 @@ restart the terminal and try again the download
 credits to @natalia
 
 --------------
+
+https://github.com/v-natalia/setup-fixes/blob/master/fixes.md#vs-code-connection-to-ubuntu
+
+--------------
