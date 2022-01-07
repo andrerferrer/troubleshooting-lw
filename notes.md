@@ -1,3 +1,12 @@
+https://github.com/v-natalia/setup-fixes/blob/master/fixes.md#vs-code-connection-to-ubuntu
+
+---------------
+
+Starting directories were ALL WRONG
+
+---------------
+
+
 ![Untitled](https://user-images.githubusercontent.com/45776359/148554395-416581b4-0434-4cfa-afab-a911ed694cf2.png)
 
 `sudo dpkg -i --force-all /var/cache/apt/archives/gh_2.4.0_amd64.deb`
@@ -15,8 +24,9 @@ restart the terminal and try again the download
 credits to @natalia
 
 --------------
+VScode connection
+https://github.com/andrerferrer/troubleshooting-lw/blob/master/VS%20Code%20connection%20to%20Ubuntu.md#vs-code-connection-to-ubuntu
 
-https://github.com/v-natalia/setup-fixes/blob/master/fixes.md#vs-code-connection-to-ubuntu
 
 --------------
 
