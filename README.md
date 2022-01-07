@@ -14,27 +14,10 @@ This is a repository with some frequently found problems and their solutions.
     curl -s https://kitt.lewagon.com/camps/:CAMP_NUMBER/setup_script/:GITHUB_USERNAME | bash
     ```
 
-    ### MacOs
-- [Shallow clone issues](Setup/shallow_clone.md)
-- [Terminal doesnt open rosetta](Setup/terminal_doesnt_open_rosetta.md)
-- [psql: error: could not connect to server](Setup/psql_error_could_not_connect_to_server.md) 
-- [GEM::FilePermissionError](Setup/gem_filepermissionerror.md) 
-- [macOs_asks_for_gh_password](Setup/macOs_asks_for_gh_password.md) 
+    ### [MacOs](MacOs/general.md)
 
-    ### WSL
-- [LW cheatsheet](https://github.com/lewagon/setup/blob/master/docs/windows_cheatsheet.md)
-- [Visual Studio Code tries to access old version of WSL](Setup/old_version_wsl.md)
-- [wsl cheatsheet](https://github.com/andrerferrer/wsl_cheatsheet).
-- [Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS](https://www.configserverfirewall.com/windows-10/please-enable-the-virtual-machine-platform-windows-feature-and-ensure-virtualization-is-enabled-in-the-bios/)
-- [Cant install ubuntu because of microsoft store](https://stackoverflow.com/questions/52512026/is-it-possible-install-ubuntu-in-windows-10-wsl-without-microsoft-store)
+    ### [WSL](WSL/general.md)
 
-Follow [this guide](https://docs.microsoft.com/en-us/windows/wsl/install-on-server).
-
-The command to download is
-`Invoke-WebRequest -Uri https://aka.ms/wslubuntu -OutFile Ubuntu.appx -UseBasicParsing`
-
-- [Cant install terminal preview because of microsoft store](https://github.com/microsoft/terminal/releases)
-- [WslRegisterDistribution_failed_witherror:_0xc03a001a](https://github.com/andrerferrer/wsl_cheatsheet/blob/master/WslRegisterDistribution_failed_witherror:_0xc03a001a.md)
 
 ## Javascript
 
