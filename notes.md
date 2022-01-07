@@ -50,3 +50,16 @@ W: Some index files failed to download. They have been ignored, or old ones used
 ```
 
 https://stackoverflow.com/questions/60269422/windows10-wsl2-ubuntu-debian-no-network
+
+------------------
+
+![image](https://user-images.githubusercontent.com/45776359/148558965-01719c46-4b2a-43b8-8fcc-f009ce94a29e.png)
+
+```
+key=40976EAF437D05B5
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ${key}
+```
+https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/
+
+
+-----------------------
