@@ -1,3 +1,6 @@
+All credits to [Natalia](https://github.com/v-natalia)
+
+
 ## VS Code connection to Ubuntu
 
 ### [Connecting VS Code to Ubuntu](https://github.com/lewagon/setup/blob/master/windows.md#connecting-vs-code-to-ubuntu)
